@@ -1,6 +1,7 @@
 # Declaring arrays for inputs, where index 0 is count of that input type for the madlib we use
 noun, plurNoun, presVerb, bodyPart, adj = [1], [2], [2], [1], [2]
 
+# User inputs for each type needed for mad-libs
 for i in range(1, noun[0] + 1):
     noun.append(input("Enter a noun: "))
 
@@ -16,6 +17,7 @@ for i in range(1, bodyPart[0] + 1):
 for i in range(1, adj[0] + 1):
     adj.append(input("Enter a adjective: "))
 
+# Printing the mad lib the user generated
 print("\nYour mad lib:\n")
 print(f"Today, every student has a computer small enough to fit into his '{noun[1]}'.\n\
 He can solve any math problem by simply pushing the computer's little '{plurNoun[1]}'.\n\
