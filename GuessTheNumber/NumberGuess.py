@@ -19,8 +19,6 @@ while True:
 print(f"Guess the number between 1 and {userDiff}")
 numToGuess = randrange(userDiff)
 
-print(numToGuess)
-
 while guesses != 0:
     while True:
         try:
